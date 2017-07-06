@@ -1,0 +1,112 @@
+/* CSS Document */
+
+body
+	{
+	margin: 0;
+	padding: 0;
+	background: #fff url(images/bg.jpg) repeat-x;
+	font: 12px Georgia, serif;
+	color: #000;
+	}
+
+a:link
+	{
+	color: #FF3300;
+	text-decoration: none;
+	}
+
+a:visited
+	{
+	color: #FF9900;
+	text-decoration: none;
+	}
+
+a:hover
+	{
+	color: #FF9900;
+	text-decoration: underline;
+	}
+	
+a:active
+	{
+	color: #FF9900;
+	text-decoration: none;
+	}
+
+a.img-border
+	{
+	text-decoration: none;
+	border: 0 none;
+	}
+
+.nav
+	{
+	font-weight: bold;
+	font-size: 13px;
+	}
+
+.nav a
+	{
+	color: #FF3300;
+	text-decoration: none;
+	border: 0;
+	}
+
+.nav a:hover { color: #FF9900; text-decoration: underline; border: 0; }
+
+.nav a:visited { color: #FF3300; border: 0; }
+
+.pagetitle
+	{
+	color: #0d2a52;
+	font: 14px Arial, serif;
+	font-weight: bold;
+	text-align: center;
+	}
+
+#content
+	{
+	position: relative;
+	margin: 0px auto;
+	width: 750px;
+	top: 0px;
+	}
+
+#topleft
+	{
+	position: absolute;
+	margin: 0;
+	width: 178px;
+	height: 234px;
+	top: 0px;
+	left: 0px;
+	}
+	
+#topright
+	{
+	position: absolute;
+	margin: 0;
+	width: 572px;
+	height: 234px;
+	top: 0px;
+	left: 179px;
+	font: 12px Arial, serif;
+	}
+
+#navigation
+	{
+	position: absolute;
+	margin: 0;
+	width: 155px;
+	top: 244px;
+	left: 20px;
+	}
+	
+#main
+	{
+	position: absolute;
+    width: 550px;
+    margin: 0px;
+	left: 200px;
+	top: 244px;
+	}
